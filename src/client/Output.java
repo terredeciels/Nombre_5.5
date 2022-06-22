@@ -1,4 +1,4 @@
-package util;
+package client;
 
 import java.util.ArrayList;
 import java.util.Iterator;

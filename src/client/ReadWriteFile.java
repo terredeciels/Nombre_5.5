@@ -1,20 +1,9 @@
-package util;
+package client;
 
 import java.io.*;
 import java.util.Scanner;
 
 public class ReadWriteFile {
-    ///home/me/Documents/ToWindows/matrix1.txt
-
-    public static String readFromFile(String fileaddr) throws FileNotFoundException {
-        String ret = "";
-        Scanner scanner = new Scanner(new File(fileaddr));
-        while (scanner.hasNextLine()) {
-            ret += scanner.nextLine() + "\n";
-        }
-        scanner.close();
-        return ret;
-    }
 
     public static void writeTextToFile(Integer[][] tab, String fileaddr, int n) {
         String ret = "";

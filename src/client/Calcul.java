@@ -1,7 +1,4 @@
-package compute;
-
-import util.Output;
-import util.Paire;
+package client;
 
 import java.util.Iterator;
 import java.util.TreeMap;
@@ -16,7 +13,7 @@ public class Calcul extends TreeMap<Integer, Output> {
         this.entiermax = entiermax;
         calcul();
         outputT = toIntTab();
-        new Traitement(this);
+        //new Traitement(this);
     }
 
     private void calcul() {

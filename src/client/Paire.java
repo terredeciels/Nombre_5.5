@@ -1,4 +1,4 @@
-package util;
+package client;
 
 public class Paire {
 
